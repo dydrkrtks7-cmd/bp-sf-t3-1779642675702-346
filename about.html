@@ -1,228 +1,224 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="bpaas-design-system" content="editorial-apple">
-    <meta name="bpaas-design-theme" content="kr-warm-grid">
-    <title>마포 셔츠룸 | AI 트렌드 분석 데이터 기반 프리미엄 정보</title>
-    <meta name="description" content="마포 셔츠룸의 AI 트렌드 분석 시스템, 정밀 데이터 기반 스타일링 프로세스, 고객 맞춤형 서비스 매트릭스 등 프리미엄 셔츠룸의 핵심 정보를 제공합니다. 010-6279-0862">
-    <meta name="keywords" content="마포 셔츠룸, 마포구 셔츠룸, AI 트렌드 분석, 셔츠룸 시스템, 프리미엄 셔츠룸 정보, 데이터 기반 스타일링, 마포 셔츠룸 서비스">
-    <link rel="canonical" href="https://sf-t3-1779642675702-346.maphoshirts.xyz/about.html">
-    <meta property="og:title" content="마포 셔츠룸 | AI 트렌드 분석 데이터 기반 프리미엄 정보">
-    <meta property="og:description" content="마포 셔츠룸의 AI 트렌드 분석 시스템, 정밀 데이터 기반 스타일링 프로세스, 고객 맞춤형 서비스 매트릭스 등 프리미엄 셔츠룸의 핵심 정보를 제공합니다. 010-6279-0862">
-    <meta property="og:image" content="https://sf-t3-1779642675702-346.vercel.app/og-image.jpg">
-    <meta property="og:url" content="https://sf-t3-1779642675702-346.maphoshirts.xyz/about.html">
-    <meta name="twitter:card" content="summary">
-    <style>
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; background: #faf9f7; color: #1d1d1f; line-height: 1.6; }
-        img, svg { max-width: 100%; height: auto; display: block; }
-        a { color: #1d1d1f; text-decoration: none; }
-        a:hover { color: #6b5b4e; }
-        
-        .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
-        
-        h1, h2, h3, h4 { font-weight: 600; letter-spacing: -0.02em; line-height: 1.2; }
-        h1 { font-size: 2.8rem; margin-bottom: 1.2rem; }
-        h2 { font-size: 2rem; margin-bottom: 1rem; }
-        h3 { font-size: 1.4rem; margin-bottom: 0.8rem; }
-        p { font-size: 1.05rem; color: #424245; margin-bottom: 1rem; }
-        
-        header { background: #ffffff; border-bottom: 1px solid #e8e6e3; position: sticky; top: 0; z-index: 100; }
-        .nav-container { display: flex; justify-content: space-between; align-items: center; height: 64px; max-width: 1200px; margin: 0 auto; padding: 0 24px; }
-        .logo { font-size: 1.3rem; font-weight: 700; letter-spacing: -0.03em; }
-        .logo span { color: #8b7a6b; }
-        .nav-links { display: flex; gap: 32px; align-items: center; }
-        .nav-links a { font-size: 0.95rem; font-weight: 500; color: #424245; transition: color 0.2s; }
-        .nav-links a:hover { color: #1d1d1f; }
-        .nav-links a.active { color: #1d1d1f; border-bottom: 2px solid #8b7a6b; padding-bottom: 4px; }
-        .tel-link { background: #1d1d1f; color: #ffffff !important; padding: 8px 20px; border-radius: 20px; font-weight: 600; font-size: 0.95rem; transition: background 0.2s; }
-        .tel-link:hover { background: #3a3a3c; color: #ffffff !important; }
-        .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 8px; }
-        .hamburger span { width: 24px; height: 2px; background: #1d1d1f; border-radius: 2px; transition: 0.3s; }
-        
-        @media (max-width: 768px) {
-            h1 { font-size: 2rem; }
-            h2 { font-size: 1.6rem; }
-            h3 { font-size: 1.2rem; }
-            .nav-links { display: none; position: absolute; top: 64px; left: 0; right: 0; background: #ffffff; flex-direction: column; padding: 20px 24px; gap: 20px; border-bottom: 1px solid #e8e6e3; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
-            .nav-links.open { display: flex; }
-            .hamburger { display: flex; }
-            .container { padding: 0 16px; }
-        }
-        
-        .hero-section { padding: 80px 0 60px; text-align: center; background: linear-gradient(180deg, #f5f3f0 0%, #faf9f7 100%); }
-        .hero-section p { font-size: 1.15rem; max-width: 700px; margin: 0 auto 1.5rem; }
-        .hero-badge { display: inline-block; background: #e8e6e3; padding: 6px 16px; border-radius: 20px; font-size: 0.85rem; font-weight: 500; color: #424245; margin-bottom: 1.5rem; letter-spacing: 0.02em; }
-        .hero-stats { display: flex; justify-content: center; gap: 48px; margin-top: 40px; flex-wrap: wrap; }
-        .hero-stat { text-align: center; }
-        .hero-stat .number { font-size: 2.2rem; font-weight: 700; color: #1d1d1f; }
-        .hero-stat .label { font-size: 0.9rem; color: #6e6e73; margin-top: 4px; }
-        
-        .section { padding: 72px 0; }
-        .section-alt { background: #f5f3f0; }
-        .section-title { text-align: center; margin-bottom: 48px; }
-        .section-title p { max-width: 600px; margin: 0 auto; color: #6e6e73; }
-        
-        .info-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
-        @media (max-width: 768px) { .info-grid { grid-template-columns: 1fr; } }
-        .info-card { background: #ffffff; padding: 32px; border-radius: 16px; border: 1px solid #e8e6e3; transition: transform 0.2s, box-shadow 0.2s; }
-        .info-card:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0,0,0,0.04); }
-        .info-card .icon { font-size: 2rem; margin-bottom: 16px; }
-        .info-card h3 { font-size: 1.2rem; margin-bottom: 12px; }
-        .info-card p { font-size: 0.95rem; color: #6e6e73; }
-        .info-card .stat-line { display: flex; justify-content: space-between; margin-top: 16px; padding-top: 16px; border-top: 1px solid #e8e6e3; font-size: 0.9rem; }
-        .info-card .stat-line .value { font-weight: 600; color: #1d1d1f; }
-        
-        .process-steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
-        @media (max-width: 768px) { .process-steps { grid-template-columns: 1fr 1fr; } }
-        .process-step { text-align: center; padding: 24px 16px; }
-        .process-step .step-num { width: 40px; height: 40px; background: #1d1d1f; color: #ffffff; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; font-weight: 600; font-size: 1rem; }
-        .process-step h4 { font-size: 1.05rem; margin-bottom: 8px; }
-        .process-step p { font-size: 0.9rem; color: #6e6e73; }
-        
-        .data-table { width: 100%; border-collapse: collapse; margin-top: 24px; background: #ffffff; border-radius: 12px; overflow: hidden; border: 1px solid #e8e6e3; }
-        .data-table th { background: #f5f3f0; padding: 16px 20px; text-align: left; font-weight: 600; font-size: 0.9rem; color: #424245; border-bottom: 1px solid #e8e6e3; }
-        .data-table td { padding: 16px 20px; border-bottom: 1px solid #e8e6e3; font-size: 0.95rem; color: #424245; }
-        .data-table tr:last-child td { border-bottom: none; }
-        .data-table .highlight { color: #1d1d1f; font-weight: 600; }
-        
-        .faq-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
-        @media (max-width: 768px) { .faq-grid { grid-template-columns: 1fr; } }
-        .faq-item { background: #ffffff; padding: 24px; border-radius: 12px; border: 1px solid #e8e6e3; }
-        .faq-item h4 { font-size: 1rem; margin-bottom: 8px; color: #1d1d1f; }
-        .faq-item p { font-size: 0.9rem; color: #6e6e73; margin-bottom: 0; }
-        
-        .cta-section { background: #1d1d1f; color: #ffffff; text-align: center; padding: 72px 0; }
-        .cta-section h2 { color: #ffffff; }
-        .cta-section p { color: #a1a1a6; }
-        .cta-button { display: inline-block; background: #ffffff; color: #1d1d1f; padding: 14px 36px; border-radius: 28px; font-weight: 600; font-size: 1.05rem; margin-top: 24px; transition: background 0.2s, transform 0.2s; }
-        .cta-button:hover { background: #e8e6e3; transform: scale(1.02); color: #1d1d1f; }
-        
-        footer { background: #f5f3f0; padding: 40px 0; border-top: 1px solid #e8e6e3; text-align: center; }
-        footer p { font-size: 0.85rem; color: #6e6e73; margin-bottom: 0; }
-        .footer-links { display: flex; justify-content: center; gap: 24px; margin-bottom: 16px; flex-wrap: wrap; }
-        .footer-links a { font-size: 0.85rem; color: #6e6e73; }
-        .footer-links a:hover { color: #1d1d1f; }
-    </style>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>마포 셔츠룸 | AI 트렌드 분석 데이터 기반 프리미엄 정보</title>
+ <meta name="description" content="마포 셔츠룸의 AI 트렌드 분석 시스템, 정밀 데이터 기반 스타일링 프로세스, 고객 맞춤형 서비스 매트릭스 등 프리미엄 셔츠룸의 핵심 정보를 제공합니다.">
+ <meta name="keywords" content="마포 셔츠룸, 마포구 셔츠룸, AI 트렌드 분석, 셔츠룸 시스템, 프리미엄 셔츠룸 정보, 데이터 기반 스타일링, 마포 셔츠룸 서비스">
+ <link rel="canonical" href="https://sf-t3-1779642675702-346.maphoshirts.xyz/about.html">
+ <meta property="og:title" content="마포 셔츠룸 | AI 트렌드 분석 데이터 기반 프리미엄 정보">
+ <meta property="og:description" content="마포 셔츠룸의 AI 트렌드 분석 시스템, 정밀 데이터 기반 스타일링 프로세스, 고객 맞춤형 서비스 매트릭스 등 프리미엄 셔츠룸의 핵심 정보를 제공합니다.">
+ <meta property="og:image" content="https://sf-t3-1779642675702-346.vercel.app/og-image.jpg">
+ <meta property="og:url" content="https://sf-t3-1779642675702-346.maphoshirts.xyz/about.html">
+ <meta name="twitter:card" content="summary">
+ <style>
+ *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+ html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; background: #faf9f7; color: #1d1d1f; line-height: 1.6; }
+ img, svg { max-width: 100%; height: auto; display: block; }
+ a { color: #1d1d1f; text-decoration: none; }
+ a:hover { color: #6b5b4e; }
+ 
+ .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+ 
+ h1, h2, h3, h4 { font-weight: 600; letter-spacing: -0.02em; line-height: 1.2; }
+ h1 { font-size: 2.8rem; margin-bottom: 1.2rem; }
+ h2 { font-size: 2rem; margin-bottom: 1rem; }
+ h3 { font-size: 1.4rem; margin-bottom: 0.8rem; }
+ p { font-size: 1.05rem; color: #424245; margin-bottom: 1rem; }
+ 
+ header { background: #ffffff; border-bottom: 1px solid #e8e6e3; position: sticky; top: 0; z-index: 100; }
+ .nav-container { display: flex; justify-content: space-between; align-items: center; height: 64px; max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+ .logo { font-size: 1.3rem; font-weight: 700; letter-spacing: -0.03em; }
+ .logo span { color: #8b7a6b; }
+ .nav-links { display: flex; gap: 32px; align-items: center; }
+ .nav-links a { font-size: 0.95rem; font-weight: 500; color: #424245; transition: color 0.2s; }
+ .nav-links a:hover { color: #1d1d1f; }
+ .nav-links a.active { color: #1d1d1f; border-bottom: 2px solid #8b7a6b; padding-bottom: 4px; }
+ .tel-link { background: #1d1d1f; color: #ffffff !important; padding: 8px 20px; border-radius: 20px; font-weight: 600; font-size: 0.95rem; transition: background 0.2s; }
+ .tel-link:hover { background: #3a3a3c; color: #ffffff !important; }
+ .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 8px; }
+ .hamburger span { width: 24px; height: 2px; background: #1d1d1f; border-radius: 2px; transition: 0.3s; }
+ 
+ @media (max-width: 768px) {
+ h1 { font-size: 2rem; }
+ h2 { font-size: 1.6rem; }
+ h3 { font-size: 1.2rem; }
+ .nav-links { display: none; position: absolute; top: 64px; left: 0; right: 0; background: #ffffff; flex-direction: column; padding: 20px 24px; gap: 20px; border-bottom: 1px solid #e8e6e3; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+ .nav-links.open { display: flex; }
+ .hamburger { display: flex; }
+ .container { padding: 0 16px; }
+ }
+ 
+ .hero-section { padding: 80px 0 60px; text-align: center; background: linear-gradient(180deg, #f5f3f0 0%, #faf9f7 100%); }
+ .hero-section p { font-size: 1.15rem; max-width: 700px; margin: 0 auto 1.5rem; }
+ .hero-badge { display: inline-block; background: #e8e6e3; padding: 6px 16px; border-radius: 20px; font-size: 0.85rem; font-weight: 500; color: #424245; margin-bottom: 1.5rem; letter-spacing: 0.02em; }
+ .hero-stats { display: flex; justify-content: center; gap: 48px; margin-top: 40px; flex-wrap: wrap; }
+ .hero-stat { text-align: center; }
+ .hero-stat .number { font-size: 2.2rem; font-weight: 700; color: #1d1d1f; }
+ .hero-stat .label { font-size: 0.9rem; color: #6e6e73; margin-top: 4px; }
+ 
+ .section { padding: 72px 0; }
+ .section-alt { background: #f5f3f0; }
+ .section-title { text-align: center; margin-bottom: 48px; }
+ .section-title p { max-width: 600px; margin: 0 auto; color: #6e6e73; }
+ 
+ .info-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+ @media (max-width: 768px) { .info-grid { grid-template-columns: 1fr; } }
+ .info-card { background: #ffffff; padding: 32px; border-radius: 16px; border: 1px solid #e8e6e3; transition: transform 0.2s, box-shadow 0.2s; }
+ .info-card:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0,0,0,0.04); }
+ .info-card .icon { font-size: 2rem; margin-bottom: 16px; }
+ .info-card h3 { font-size: 1.2rem; margin-bottom: 12px; }
+ .info-card p { font-size: 0.95rem; color: #6e6e73; }
+ .info-card .stat-line { display: flex; justify-content: space-between; margin-top: 16px; padding-top: 16px; border-top: 1px solid #e8e6e3; font-size: 0.9rem; }
+ .info-card .stat-line .value { font-weight: 600; color: #1d1d1f; }
+ 
+ .process-steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+ @media (max-width: 768px) { .process-steps { grid-template-columns: 1fr 1fr; } }
+ .process-step { text-align: center; padding: 24px 16px; }
+ .process-step .step-num { width: 40px; height: 40px; background: #1d1d1f; color: #ffffff; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; font-weight: 600; font-size: 1rem; }
+ .process-step h4 { font-size: 1.05rem; margin-bottom: 8px; }
+ .process-step p { font-size: 0.9rem; color: #6e6e73; }
+ 
+ .data-table { width: 100%; border-collapse: collapse; margin-top: 24px; background: #ffffff; border-radius: 12px; overflow: hidden; border: 1px solid #e8e6e3; }
+ .data-table th { background: #f5f3f0; padding: 16px 20px; text-align: left; font-weight: 600; font-size: 0.9rem; color: #424245; border-bottom: 1px solid #e8e6e3; }
+ .data-table td { padding: 16px 20px; border-bottom: 1px solid #e8e6e3; font-size: 0.95rem; color: #424245; }
+ .data-table tr:last-child td { border-bottom: none; }
+ .data-table .highlight { color: #1d1d1f; font-weight: 600; }
+ 
+ .faq-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+ @media (max-width: 768px) { .faq-grid { grid-template-columns: 1fr; } }
+ .faq-item { background: #ffffff; padding: 24px; border-radius: 12px; border: 1px solid #e8e6e3; }
+ .faq-item h4 { font-size: 1rem; margin-bottom: 8px; color: #1d1d1f; }
+ .faq-item p { font-size: 0.9rem; color: #6e6e73; margin-bottom: 0; }
+ 
+ .cta-section { background: #1d1d1f; color: #ffffff; text-align: center; padding: 72px 0; }
+ .cta-section h2 { color: #ffffff; }
+ .cta-section p { color: #a1a1a6; }
+ .cta-button { display: inline-block; background: #ffffff; color: #1d1d1f; padding: 14px 36px; border-radius: 28px; font-weight: 600; font-size: 1.05rem; margin-top: 24px; transition: background 0.2s, transform 0.2s; }
+ .cta-button:hover { background: #e8e6e3; transform: scale(1.02); color: #1d1d1f; }
+ 
+ footer { background: #f5f3f0; padding: 40px 0; border-top: 1px solid #e8e6e3; text-align: center; }
+ footer p { font-size: 0.85rem; color: #6e6e73; margin-bottom: 0; }
+ .footer-links { display: flex; justify-content: center; gap: 24px; margin-bottom: 16px; flex-wrap: wrap; }
+ .footer-links a { font-size: 0.85rem; color: #6e6e73; }
+ .footer-links a:hover { color: #1d1d1f; }
+ </style>
   <meta property="og:type" content="website">
 </head>
 <body>
-    <header>
-        <div class="nav-container">
-            <a href="/" class="logo">마포<span>셔츠룸</span></a>
-            <div class="hamburger" onclick="this.classList.toggle('active'); document.querySelector('.nav-links').classList.toggle('open')">
-                <span></span><span></span><span></span>
-            </div>
-            <nav class="nav-links">
-                <a href="/">홈</a>
-                <a href="/info" class="active">정보</a>
-                <a href="/service">서비스</a>
-                <a href="/insights">인사이트</a>
-                <a href="/contact" class="tel-link">010-6279-0862</a>
-            </nav>
-        </div>
-    </header>
+ <header>
+ <div class="nav-container">
+ <a href="/" class="logo">마포<span>셔츠룸</span></a>
+ 
+ <nav class="nav-links">
+ <a href="/">홈</a>
+ <a href="/info" class="active">정보</a>
+ <a href="/service">서비스</a>
+ <a href="/insights">인사이트</a>
+ 
+ </nav>
+ </div>
+ </header>
 
 <main>
 <section class="hero-section container">
-  <span class="hero-badge">정보 안내 페이지</span>
-  <h1>마포 셔츠룸 정보 안내</h1>
-  <p>이 페이지는 마포 지역 셔츠룸을 처음 접하는 분들을 위해 이용 방식과 확인해야 할 사항을 정리한 안내 페이지입니다.</p>
+ <span class="hero-badge">정보 안내 페이지</span>
+ <h1>마포 셔츠룸 정보 안내</h1>
+ <p>이 페이지는 마포 지역 셔츠룸을 처음 접하는 분들을 위해 이용 방식과 확인해야 할 사항을 정리한 안내 페이지입니다.</p>
 </section>
 
 <section class="section">
-  <div class="container">
-    <h2 class="section-title">셔츠룸 이용 안내</h2>
-    <p>셔츠룸은 예약 방식과 진행 절차가 매장마다 조금씩 다르게 운영됩니다. 방문 전에 예약이 필요한지, 인원수 제한이 있는지, 이용 가능한 시간대는 언제인지를 미리 확인하는 것이 일반적인 이용 순서입니다.</p>
-  </div>
+ <div class="container">
+ <h2 class="section-title">셔츠룸 이용 안내</h2>
+ <p>셔츠룸은 예약 방식과 진행 절차가 매장마다 조금씩 다르게 운영됩니다. 방문 전에 예약이 필요한지, 인원수 제한이 있는지, 이용 가능한 시간대는 언제인지를 미리 확인하는 것이 일반적인 이용 순서입니다.</p>
+ </div>
 </section>
 
 <section class="section-alt">
-  <div class="container">
-    <h2 class="section-title">가격이 결정되는 구조</h2>
-    <div class="info-grid">
-      <div class="info-card">
-        <span class="icon">1</span>
-        <p>이용 인원과 시간대에 따라 구성이 달라질 수 있습니다.</p>
-      </div>
-      <div class="info-card">
-        <span class="icon">2</span>
-        <p>요일과 예약 시점에 따라 안내되는 조건이 달라지는 경우가 있습니다.</p>
-      </div>
-      <div class="info-card">
-        <span class="icon">3</span>
-        <p>정확한 금액은 매장에 직접 문의해 확인하는 것이 가장 정확합니다.</p>
-      </div>
-    </div>
-  </div>
+ <div class="container">
+ <h2 class="section-title">가격이 결정되는 구조</h2>
+ <div class="info-grid">
+ <div class="info-card">
+ <span class="icon">1</span>
+ <p>이용 인원과 시간대에 따라 구성이 달라질 수 있습니다.</p>
+ </div>
+ <div class="info-card">
+ <span class="icon">2</span>
+ <p>요일과 예약 시점에 따라 안내되는 조건이 달라지는 경우가 있습니다.</p>
+ </div>
+ <div class="info-card">
+ <span class="icon">3</span>
+ <p>정확한 금액은 매장에 직접 문의해 확인하는 것이 가장 정확합니다.</p>
+ </div>
+ </div>
+ </div>
 </section>
 
 <section class="section">
-  <div class="container">
-    <h2 class="section-title">방문 전 체크리스트</h2>
-    <div class="process-steps">
-      <div class="process-step">
-        <span class="step-num">1</span>
-        <p>방문 목적과 인원수를 먼저 정리합니다.</p>
-      </div>
-      <div class="process-step">
-        <span class="step-num">2</span>
-        <p>예약 가능 시간과 위치를 확인합니다.</p>
-      </div>
-      <div class="process-step">
-        <span class="step-num">3</span>
-        <p>문의 시 궁금한 사항을 미리 정리해둡니다.</p>
-      </div>
-    </div>
-  </div>
+ <div class="container">
+ <h2 class="section-title">방문 전 체크리스트</h2>
+ <div class="process-steps">
+ <div class="process-step">
+ <span class="step-num">1</span>
+ <p>방문 목적과 인원수를 먼저 정리합니다.</p>
+ </div>
+ <div class="process-step">
+ <span class="step-num">2</span>
+ <p>예약 가능 시간과 위치를 확인합니다.</p>
+ </div>
+ <div class="process-step">
+ <span class="step-num">3</span>
+ <p>문의 시 궁금한 사항을 미리 정리해둡니다.</p>
+ </div>
+ </div>
+ </div>
 </section>
 
 <div class="highlight container">
-  <p>정확한 운영 시간과 이용 조건은 매장별로 다를 수 있으므로 방문 전 확인이 필요합니다.</p>
+ <p>정확한 운영 시간과 이용 조건은 매장별로 다를 수 있으므로 방문 전 확인이 필요합니다.</p>
 </div>
 
 <section class="section">
-  <div class="container">
-    <h2 class="section-title">마포 지역 정보</h2>
-    <p>마포는 다양한 유형의 매장이 밀집한 지역으로, 접근성과 주차 여건이 매장마다 다르게 안내됩니다. 대중교통 이용 시에는 인근 정류장이나 역에서의 거리를, 자차 이용 시에는 주차 가능 여부를 함께 확인하는 것이 좋습니다.</p>
-  </div>
+ <div class="container">
+ <h2 class="section-title">마포 지역 정보</h2>
+ <p>마포는 다양한 유형의 매장이 밀집한 지역으로, 접근성과 주차 여건이 매장마다 다르게 안내됩니다. 대중교통 이용 시에는 인근 정류장이나 역에서의 거리를, 자차 이용 시에는 주차 가능 여부를 함께 확인하는 것이 좋습니다.</p>
+ </div>
 </section>
 
 <section class="section-alt">
-  <div class="container">
-    <h2 class="section-title">자주 묻는 질문</h2>
-    <div class="faq-grid">
-      <div class="faq-item">
-        <p><strong>Q. 예약 없이 방문할 수 있나요?</strong></p>
-        <p>매장 상황에 따라 다르므로 사전 연락으로 확인하는 것이 안전합니다.</p>
-      </div>
-      <div class="faq-item">
-        <p><strong>Q. 인원 변경이 가능한가요?</strong></p>
-        <p>변경이 필요한 경우 미리 연락해 조율하는 것이 일반적입니다.</p>
-      </div>
-      <div class="faq-item">
-        <p><strong>Q. 주차 공간이 있나요?</strong></p>
-        <p>매장별로 상이하므로 방문 전 문의를 통해 확인할 수 있습니다.</p>
-      </div>
-      <div class="faq-item">
-        <p><strong>Q. 단체로도 이용할 수 있나요?</strong></p>
-        <p>단체 이용 가능 여부와 좌석 구성은 매장 사정에 따라 달라질 수 있어 사전 문의가 필요합니다.</p>
-      </div>
-      <div class="faq-item">
-        <p><strong>Q. 처음 방문할 때 무엇을 준비하면 좋나요?</strong></p>
-        <p>방문 인원과 원하는 시간대를 먼저 정리해두면 문의와 예약 과정이 한결 수월합니다.</p>
-      </div>
-    </div>
-  </div>
+ <div class="container">
+ <h2 class="section-title">자주 묻는 질문</h2>
+ <div class="faq-grid">
+ <div class="faq-item">
+ <p><strong>Q. 예약 없이 방문할 수 있나요?</strong></p>
+ <p>매장 상황에 따라 다르므로 사전 연락으로 확인하는 것이 안전합니다.</p>
+ </div>
+ <div class="faq-item">
+ <p><strong>Q. 인원 변경이 가능한가요?</strong></p>
+ <p>변경이 필요한 경우 미리 연락해 조율하는 것이 일반적입니다.</p>
+ </div>
+ <div class="faq-item">
+ <p><strong>Q. 주차 공간이 있나요?</strong></p>
+ <p>매장별로 상이하므로 방문 전 문의를 통해 확인할 수 있습니다.</p>
+ </div>
+ <div class="faq-item">
+ <p><strong>Q. 단체로도 이용할 수 있나요?</strong></p>
+ <p>단체 이용 가능 여부와 좌석 구성은 매장 사정에 따라 달라질 수 있어 사전 문의가 필요합니다.</p>
+ </div>
+ <div class="faq-item">
+ <p><strong>Q. 처음 방문할 때 무엇을 준비하면 좋나요?</strong></p>
+ <p>방문 인원과 원하는 시간대를 먼저 정리해두면 문의와 예약 과정이 한결 수월합니다.</p>
+ </div>
+ </div>
+ </div>
 </section>
 
 <section class="cta-section container">
-  <h2 class="section-title">문의 안내</h2>
-  <p>자세한 사항은 아래 연락처로 문의해 주세요.</p>
-  <a class="cta-button tel-link" href="tel:010-6279-0862">010-6279-0862</a>
+ <h2 class="section-title">문의 안내</h2>
+ <p>자세한 사항은 아래 연락처로 문의해 주세요.</p>
+ 
 </section>
 </main>
 
